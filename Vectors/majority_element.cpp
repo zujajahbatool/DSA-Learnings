@@ -18,6 +18,7 @@ public:
     return ((nums[limit])) ;
   }
 };
+
 int main() {
   Solution s;
   vector<int> n = {2,2,1,1,1,1,2};
