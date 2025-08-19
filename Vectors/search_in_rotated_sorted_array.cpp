@@ -1,3 +1,7 @@
+//Binary Search Approach
+//LeetCode Problem - Search in a Rotated Sorted Array
+//All elements are distinctive in this rotated array
+//Either left or right side of the mid is sorted
 #include <iostream>
 #include<vector>
 using namespace std;
