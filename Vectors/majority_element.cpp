@@ -8,6 +8,7 @@
 #include<algorithm>
 #include<vector>
 using namespace std;
+
 class Solution
 {
 public:
@@ -18,12 +19,3 @@ public:
     return ((nums[limit])) ;
   }
 };
-
-int main() {
-  Solution s;
-  vector<int> n = {2,2,1,1,1,1,2};
-  int result = s.majorityElement(n);
-  cout <<"Majority element is: " << result << endl;
-  return 0;
-  return 0;
-}

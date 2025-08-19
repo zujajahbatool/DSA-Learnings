@@ -3,6 +3,7 @@
 #include <iostream>
 #include<vector>
 using namespace std;
+
 class Solution
 {
 public:
@@ -23,13 +24,3 @@ public:
         }
     }
 };
-int main() {
-  Solution s;
-  int t;
-  cout << "Enter the target value: ";
-  cin >> t;
-  vector< int >n = {2,7,11,15};
-  vector <int> res = s.twoSum(n, t);
-  cout << res[0] <<","<<res[1]<<endl;
-  return 0;
-}

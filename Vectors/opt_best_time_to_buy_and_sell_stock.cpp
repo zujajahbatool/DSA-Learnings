@@ -2,6 +2,7 @@
 #include <iostream>
 #include<vector>
 using namespace std;
+
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -20,11 +21,3 @@ public:
         return max_profit;
      }
 };
-
-int main() {
-  Solution s;
-  vector<int> p = {7, 1, 5, 3, 6, 4};
-  int result = s.maxProfit(p);
-  cout << "Maximum profit is: " << result << endl;
-  return 0;
-}
