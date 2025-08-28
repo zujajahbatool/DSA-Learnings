@@ -33,7 +33,7 @@ bool isValid(vector<int> arr, int n, int m, int max_Allocations)
     return true;
 }
 
-int book_allocation(vector<int> arr, int n, int m)
+int painters_partition(vector<int> arr, int n, int m)
 {
     int sum = 0;
     int max_time = 0;
